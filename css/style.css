@@ -1,21 +1,28 @@
-*
+*, *:before, *:after
 {
     padding: 0%;
     margin: 0%;
+    box-sizing: border-box;
+}
+
+body
+{
+    background-color: #000000;
 }
 
 
 #--backgoundHeader
 {
-    width: 100%;
+   
     height: 100vh;
     background-image: url(../images/bg-header-1.png);
-    
+    -webkit-mask-image: linear-gradient(to top, transparent, rgb(0, 0, 0) 70%);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center; 
+    
+   
 
-  
 }
 
 #--itensMenuNAV
@@ -30,7 +37,8 @@
     border: 1px solid rgba(255, 255, 255, 0.3);
 
     background: linear-gradient(80deg, transparent, rgb(0, 0, 0) 100%);
-  
+    
+    
 }
 
 #--itensMenuNAV ul
@@ -41,7 +49,7 @@
     justify-content: center;
     align-items: center;
     gap: 64px;
-
+    
     list-style: none;
 }
 
@@ -58,7 +66,7 @@
     width: 50px;
     fill: rgb(229, 9, 20);
     
-   padding-left: 12px;
+    padding-left: 12px;
     border-left: 2px solid rgb(229, 9, 20);
    
 }
@@ -67,7 +75,7 @@
 .conteudoHeaderBanner
 {
     height: 100vh;
-    width: 100vw;
+   
     display: flex;
     justify-content: center;
     margin-left: 15%;
@@ -124,4 +132,24 @@
     padding: 0%;
     width: 10px;
     height: 10px;
+}
+.conteinerMovies
+{
+    display: flex;
+    gap:20px;
+
+    position: absolute;
+    flex-wrap:nowrap;
+}
+.cardInicial-item
+{
+    display: block;
+    width: 200px;
+    height: 200px;
+    position: relative;
+
+    background-color: #000000;
+    
+
+    
 }
