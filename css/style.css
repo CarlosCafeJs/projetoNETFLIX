@@ -1,0 +1,127 @@
+*
+{
+    padding: 0%;
+    margin: 0%;
+}
+
+
+#--backgoundHeader
+{
+    width: 100%;
+    height: 100vh;
+    background-image: url(../images/bg-header-1.png);
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; 
+
+  
+}
+
+#--itensMenuNAV
+{
+    
+    width: 10vh;
+    height: 100vh;
+  
+    position: fixed;
+
+    backdrop-filter: blur(30px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+
+    background: linear-gradient(80deg, transparent, rgb(0, 0, 0) 100%);
+  
+}
+
+#--itensMenuNAV ul
+{
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 64px;
+
+    list-style: none;
+}
+
+#--itensMenuNAV ul li svg
+{
+   width: 30px;
+   transition: 0.3s;
+   fill: rgb(231, 231, 231);
+   
+}
+#--itensMenuNAV ul li svg:hover
+{
+    transition: 0.3s;
+    width: 50px;
+    fill: rgb(229, 9, 20);
+    
+   padding-left: 12px;
+    border-left: 2px solid rgb(229, 9, 20);
+   
+}
+/* HEADER BANNER */
+
+.conteudoHeaderBanner
+{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    margin-left: 15%;
+    flex-direction: column;
+    gap: 90px;
+
+    color: aliceblue;
+}
+.logoBannerInitial
+{
+    display: flex;
+    align-items: center;
+}
+.logoBannerInitial img
+{
+    width: 35px;
+    height: 60px;
+ 
+}
+
+.buttonBannerInitial
+{
+    display: flex;
+}
+
+.buttonBannerInitial button
+{
+   
+    display: flex;
+    align-items: center;
+
+    padding: 0px 25px;
+    margin: 10px;
+
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+
+}
+
+#--buttonAssistir
+{
+    background-color: rgb(238, 238, 238);
+}
+
+#--buttonMaisInformacoes
+{
+    background-color: rgba(216, 216, 216, 0.3); 
+    color: aliceblue;  
+}
+#--buttonAssistir svg
+{
+    margin: 0%;
+    padding: 0%;
+    width: 10px;
+    height: 10px;
+}
