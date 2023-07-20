@@ -1,7 +1,19 @@
+@font-face {
+    font-family:'netflix-font';
+    src: url(../Netflix/fonte/netflix-sans-font/NetflixSans-Regular.otf) format(opentype), url(../Netflix/fonte/netflix-sans-font/NetflixSans-Light.woff2) format(opentype);
+    font-weight: normal;
+    font-style: normal;
+
+    
+}
+
+
 *
 {
     padding: 0%;
     margin: 0%;
+    font-family:'netflix-font';
+    font-style: normal;
 }
 
 
@@ -58,7 +70,7 @@
     width: 50px;
     fill: rgb(229, 9, 20);
     
-   padding-left: 12px;
+    padding-left: 12px;
     border-left: 2px solid rgb(229, 9, 20);
    
 }
@@ -83,9 +95,16 @@
 }
 .logoBannerInitial img
 {
-    width: 35px;
-    height: 60px;
+    width: 45px;
+    height: 75px;
  
+}
+
+.logoBannerInitial h1
+{
+    font-size: 25px;
+    letter-spacing:.5rem;
+    margin-left: 15px;
 }
 
 .buttonBannerInitial
