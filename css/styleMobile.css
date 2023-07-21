@@ -1,0 +1,11 @@
+
+#--itensMenuNAV ul li svg:hover 
+{
+transition: 0.3s;
+width: 50px;
+fill: rgb(119, 0, 255);
+
+padding-left: 12px;
+border-left: 2px solid rgb(0, 255, 136);
+
+}
