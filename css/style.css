@@ -6,20 +6,13 @@
     font-style: normal;
 }
 
-
-*
+*, *:before, *:after
 {
     padding: 0%;
     margin: 0%;
     font-family:'netflix-font';
     font-style: normal;
     box-sizing: border-box;
-}
-
-*, *:before, *:after
-{
-    padding: 0%;
-    margin: 0%;
     box-sizing: border-box;
 }
 
@@ -114,17 +107,19 @@ body
 {
     display: flex;
     align-items: center;
+    width: 5vh;
+    height: 5vh;
 }
 .logoBannerInitial img
 {
-    width: 45px;
-    height: 75px;
+    width: 5vh;
+    height: 5vh;
  
 }
 
 .logoBannerInitial h1
 {
-    font-size: 25px;
+    font-size: 2vh;
     letter-spacing:.5rem;
     margin-left: 15px;
 }
@@ -132,39 +127,48 @@ body
 .buttonBannerInitial
 {
     display: flex;
-}
 
+}
+.tituloBannerInitialDIV
+{
+    font-size: 4vh;
+    margin: 3vh 0vh;
+}
 .buttonBannerInitial button
 {
    
+    
     display: flex;
+    justify-content: center;
     align-items: center;
-
-    padding: 0px 25px;
-    margin: 10px;
+    
+    
 
     border: none;
     border-radius: 10px;
     cursor: pointer;
+    
+    margin: 3vh 2vh;
 
 }
 
 #--buttonAssistir
 {
     background-color: rgb(238, 238, 238);
+    padding: 0 25px;
 }
 
 #--buttonMaisInformacoes
 {
     background-color: rgba(216, 216, 216, 0.5); 
-    color: aliceblue;  
+    color: aliceblue;
+    padding: 0 50px;  
 }
 #--buttonAssistir svg
 {
     margin: 0%;
     padding: 0%;
-    width: 10px;
-    height: 10px;
+   
 }
 .conteinerMovies
 {
@@ -184,4 +188,11 @@ body
 
     background-color: rgb(0, 0, 0);
 
+}
+
+@media screen and (max-width : 760px) {
+    #--itensMenuNAV
+    {
+        display: none;
+    }
 }
