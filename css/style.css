@@ -189,18 +189,13 @@ body
     background-color: rgb(0, 0, 0);
 
 }
-<<<<<<< HEAD
 
 @media screen and (max-width : 760px) {
+
     #--itensMenuNAV
     {
         display: none;
     }
+    
 }
-=======
-/* 
-@media screen and (max-width : 760px){
 
-
-} */
->>>>>>> de1580c653ebcc33b9448fb08f1d08d75f5782a4
