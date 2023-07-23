@@ -182,23 +182,24 @@ body
 {
     display: flex;
     gap:20px;
+
+    width: 100%;
     
-    position: absolute;
-    flex-wrap:nowrap;
+    
+   
+    overflow-y: hidden;
+    
 } 
 .cardInicial-item
 {
     display: flex;
-    width: 300px;
+    width: 400px;
     height: 150px;
     
-    flex-wrap: wrap;
-
-    background-color: rgb(0, 0, 0);
-
+    /* flex-wrap: wrap;
+    overflow-y: hidden; */
+    white-space: nowrap;
+    background-color: rgb(255, 255, 255);
+   
 }
-/* 
-@media screen and (max-width : 760px){
 
-
-} */
