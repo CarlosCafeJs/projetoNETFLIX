@@ -148,7 +148,7 @@ body
    
     display: flex;
     align-items: center;
-    justify-content: end;
+    
     padding: 0px 25px;
     margin: 10px;
 
@@ -178,7 +178,7 @@ body
     padding: 10px; 
 }
 
-/* .conteinerMovies
+.conteinerMovies
 {
     display: flex;
     gap:20px;
@@ -196,7 +196,7 @@ body
 
     background-color: rgb(0, 0, 0);
 
-} */
+}
 /* 
 @media screen and (max-width : 760px){
 
