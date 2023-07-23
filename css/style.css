@@ -181,27 +181,58 @@ body
 
 .conteiner
 {
-    display: block;
-    width: 100%;
-    height: 150px;
+    display: flex;
+    width: 94%;
+    height: 400px;
+    overflow: auto;
+    margin-left: 6%;
 
     
+    align-items: center;
 }
 
-
+.conteiner::-webkit-scrollbar {
+    width: 0px;
+    scroll-behavior: smooth;
+    display: flex;
+   
+   
+}
 .conteinerMovies
 {
     display: flex;
-    
+    width: 250%;
     gap:20px;
+    margin-left: 3%;
+ 
     
 } 
 .cardInicial-item
 {
   
     width: 400px;
-    height: 150px;
+    height: 200px;
+
     background-color: rgb(255, 255, 255);
+    transition: 0.8s;
+    border-radius: 10px;
+   
+}
+.cardInicial-item:hover
+{
+  
+    /* -xpedu-transform: scale(1.3); */
+    -ms-transform: scale(1.3);
+    transform: scale(1.3);
+    transition: 0.8s;
    
 }
 
+
+
+.cardInicial-item2
+{
+    width: 400px;
+    height: 150px; 
+
+}
