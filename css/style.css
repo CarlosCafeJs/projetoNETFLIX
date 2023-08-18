@@ -26,7 +26,6 @@ body
 
 #--itensMenuNAV
 {
-   
     width: 10vh;
     height: 100vh;
   
@@ -38,8 +37,6 @@ body
     background: linear-gradient(80deg, transparent, rgb(0, 0, 0) 100%);
 
     z-index:10000;
-    
-    
 }
 
 #--itensMenuNAV ul
@@ -78,6 +75,7 @@ body
     height: 100vh;
    
     display: flex;
+    
    
     justify-content: center;
     
@@ -87,11 +85,12 @@ body
     color: aliceblue;
 
      background-image: url(../images/bg-header-1.png);
-    -webkit-mask-image: linear-gradient(to top, transparent, rgb(0, 0, 0) 70%);
+    /* -webkit-mask-image: linear-gradient(to top, transparent, rgb(0, 0, 0) 70%); */
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center; 
 }
+
 .contentBannerText
 {
     display: flex;
