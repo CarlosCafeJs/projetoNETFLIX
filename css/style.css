@@ -177,9 +177,10 @@ body
     display: flex;
     width: 94%;
     height: 400px;
-    overflow: auto;
+    overflow: scroll;
     margin-left: 6%;
 
+   
     
     align-items: center;
 }
@@ -204,8 +205,8 @@ body
 {
   
     width: 400px;
-    height: 200px;
-
+    height: 220px;
+    
     background-color: rgb(255, 255, 255);
     transition: 0.8s;
     border-radius: 10px;
@@ -218,6 +219,9 @@ body
     -ms-transform: scale(1.3);
     transform: scale(1.3);
     transition: 0.8s;
+    margin:0px 50px ;
+    
+   
    
 }
 
@@ -225,7 +229,17 @@ body
 
 .cardInicial-item2
 {
-    width: 400px;
-    height: 150px; 
-
+   
 }
+
+.classObservador:hover 
+{
+    width: 400px;
+    height: 300px;
+    background-color: #000000;
+    transition-delay: 3s;
+   
+
+    border-radius: 20px;
+}
+    
