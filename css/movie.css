@@ -1,0 +1,87 @@
+
+@font-face {
+  font-family:'netflix-font';
+  src: url(../Netflix/fonte/netflix-sans-font/NetflixSans-Regular.otf) format(opentype), url(../Netflix/fonte/netflix-sans-font/NetflixSans-Light.woff2) format(opentype);
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+*, *:before, *:after
+{
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+
+  font-family:'netflix-font';
+  font-style: normal;
+}
+
+body{
+  background-color: #050505;
+}
+
+#containerGeralMovie
+{
+  width: 800px;
+  height: auto;
+  margin: 0% auto;
+
+}
+#--containerPD-DIV
+{
+  margin: 0% auto;
+  display: flex;
+  flex-direction: column;
+  gap: 65px;
+
+  background-color: #101010;
+  color: aliceblue;
+
+  font-size: 14px;
+
+  src: url(../Netflix/fonte/netflix-sans-font/NetflixSans-Light.otf) format(opentype), url(../Netflix/fonte/netflix-sans-font/NetflixSans-Light.otf) format(opentype);
+ 
+}
+#--containerVideo
+{
+  width: 100%;
+  height: 420px;
+  background-color: black;
+}
+
+.primeiraDivisao
+{
+  width: 100%;
+  display: grid;
+  grid-template-columns:2fr 1fr;
+  grid-column-gap: 10px;
+  padding: 30px;
+  
+}
+
+.episodiosEtemps
+{
+  display:flex ;
+  gap: 20px;
+  flex-direction: column;
+  padding: 30px;
+}
+
+.elencosEgen
+{
+  display: flex;
+  flex-direction: column;
+  gap:20px;
+  padding: 30px;
+}
+
+.segundaDivisao
+{
+  width: 100%;
+  display: grid;
+  grid-template-columns:2fr 1fr;
+  grid-column-gap: 10px;
+  padding: 30px;
+}
+

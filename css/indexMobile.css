@@ -1,0 +1,238 @@
+@font-face {
+    font-family:'netflix-font';
+    src: url(../Netflix/fonte/netflix-sans-font/NetflixSans-Regular.otf) format(opentype), url(../Netflix/fonte/netflix-sans-font/NetflixSans-Light.woff2) format(opentype);
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+*, *:before, *:after
+{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+
+    font-family:'netflix-font';
+    font-style: normal;
+}
+body{
+    background-color: rgb(6, 49, 87);
+}
+
+
+#--itensMenuNAV
+{
+    height: 10vh;
+    width: 100%;
+
+    position: fixed;
+    top: 90%;
+    gap: 5px;
+
+    backdrop-filter: blur(30px);
+    border-right: 1px solid rgba(255, 255, 255, 0.3);
+
+    background: linear-gradient(80deg, transparent, rgb(0, 0, 0) 100%);
+
+    z-index:999999;
+}
+
+#--itensMenuNAV ul
+{
+    display: flex;
+    flex-direction: row;
+    z-index:10000;
+}
+
+#--itensMenuNAV ul li
+{
+    width: 5px;
+}
+
+#--itensMenuNAV ul li svg
+{
+   width: 30px;
+   transition: 0.3s;
+   fill: rgb(231, 231, 231);
+   
+}
+
+#--itensMenuNAV ul li svg:hover
+{
+    transition: 0.3s;
+    width: 50px;
+    fill: rgb(229, 9, 20);
+    
+    padding-bottom: 12px;
+    border-bottom: 2px solid rgb(229, 9, 20);
+   
+}
+
+.containerHeaderBack
+{
+    max-height: 580px;
+    min-height: 550px;
+
+    width: 86%;
+    display: flex;
+   
+    justify-content: center;
+    flex-direction: column;
+    
+    position: relative;
+    top: 30px;
+    margin: 0% auto;
+
+    color: aliceblue;
+    border-radius: 20px;
+
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; 
+    
+
+    border: 1px solid white;
+
+
+}
+
+.contentBannerText
+{
+    width: 100%;
+    
+    justify-content: end;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+   
+    
+}
+.tituloBannerInitialDIV
+{
+    width: 100%;
+    
+    justify-content: end;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+    gap:5px;
+    margin-bottom: 20px;
+}
+
+
+.buttonBannerInitial
+{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    
+    
+}
+.buttonBannerInitial button
+{
+    width: 60%;
+    height: 50%;
+    display: flex;
+ 
+    
+}
+.logoBanner, .logoBanner h1
+{
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+   
+}
+.logoBanner img
+{
+   
+    width: 35px;
+    height: 55px;
+   
+}
+.logoBannerInitial
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 95%;
+    
+
+   
+}
+.buttonBannerInitial svg
+{
+    display: none;
+    
+}
+
+#--buttonAssistir
+{
+    width: 50%;
+}
+#--buttonMaisInformacoes
+{
+    width: 50%;
+}
+.conteiner
+{
+ margin: 0% auto ;
+
+ margin-top: 80px;
+}
+
+
+
+
+.conteiner
+{
+    height: 35vh;
+}
+
+.cardInicial-item
+{
+  
+    width: 230px;
+    height: 150px;
+
+    background-color: rgb(255, 255, 255);
+    transition: 0.8s;
+    border-radius: 10px;
+    z-index: inherit;
+    cursor: pointer;
+
+   
+    
+   
+}
+
+.cardInicial-item:hover 
+{
+
+    -ms-transform: none;
+    transform:none;
+    display: flex;
+    z-index: 99999;
+    margin: 0px;
+   
+
+}
+
+.contentBannerText
+{
+    width: 100%;
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+
+}
+.descricaoFilme
+{
+    overflow: hidden;
+}
