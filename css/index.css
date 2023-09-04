@@ -96,7 +96,7 @@ body::-webkit-scrollbar {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center; 
-}
+}F
 
 
 
@@ -257,7 +257,7 @@ body::-webkit-scrollbar {
 }
 
 
-.cardInicial-item:hover .classObservador
+.cardInicial-item:hover .classObservador:hover
 {
     width: 400px;
     height: 350px;
@@ -268,16 +268,8 @@ body::-webkit-scrollbar {
     border-radius: 20px; 
     transition-delay: .5s;
     display: none;
-}
+
    
-
-.cardCointainerContent
-{
-    width: 100%;
-    height: 100%;
-
-    
-    transition-delay: .5s;
 }
 
 
@@ -294,7 +286,7 @@ body::-webkit-scrollbar {
 
 }
 
-.classObservador:hover  .videoTrailer
+.videoTrailer .classObservador:hover
 {
     display: flex;
     
@@ -311,7 +303,7 @@ body::-webkit-scrollbar {
   
 
 }
-.classObservador:hover  .botoesCard
+ .botoesCard .classObservador:hover 
 {
     display: flex; 
     
@@ -327,7 +319,7 @@ body::-webkit-scrollbar {
   
 
 }
-.classObservador:hover  .avaliacaoFilme
+.avaliacaoFilme .classObservador:hover  
 {
     display: flex; 
 }
@@ -341,7 +333,7 @@ body::-webkit-scrollbar {
     background-color: rgb(255, 251, 245); 
 }
 
-.classObservador:hover  .descricaoFilme
+ .descricaoFilme .classObservador:hover 
 {
     display: flex; 
 } */ 

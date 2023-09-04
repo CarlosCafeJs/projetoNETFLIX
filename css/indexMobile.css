@@ -72,6 +72,7 @@ body{
 {
     max-height: 580px;
     min-height: 550px;
+
     width: 86%;
     display: flex;
    
@@ -85,15 +86,15 @@ body{
     color: aliceblue;
     border-radius: 20px;
 
-    background-image: url(../images/bg-header-1.png);
     
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center; 
+    
 
     border: 1px solid white;
 
-    z-index: 9999;
+
 }
 
 .contentBannerText
@@ -105,7 +106,8 @@ body{
     flex-direction: column;
     align-items: center;
 
-    border-radius: 20px;
+   
+    
 }
 .tituloBannerInitialDIV
 {
@@ -129,6 +131,7 @@ body{
     justify-content: center;
     align-items: center;
     gap: 20px;
+    
     
 }
 .buttonBannerInitial button
@@ -159,12 +162,14 @@ body{
     flex-direction: column;
     align-items: center;
     width: 95%;
+    
 
    
 }
 .buttonBannerInitial svg
 {
     display: none;
+    
 }
 
 #--buttonAssistir
