@@ -17,6 +17,10 @@
   font-style: normal;
 }
 
+body{
+  background-color: #050505;
+}
+
 #containerGeralMovie
 {
   width: 800px;
